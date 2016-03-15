@@ -76,6 +76,7 @@ public class ActivityMain extends MyActionBarActivity {
     private Date lastStorageUpdate = null;
     private String queryText = "";
 
+    //Only used in easter eggs
     private int tooYoungTooSimple = 0;
 
     @Override
