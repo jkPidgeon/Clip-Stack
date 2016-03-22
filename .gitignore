@@ -19,3 +19,4 @@ __MACOSX/
 app/manifest-merger-release-report.txt
 app/*.apk
 *.class
+app/app.iml
