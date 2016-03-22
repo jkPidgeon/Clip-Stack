@@ -53,7 +53,7 @@ public class FolderObject {
         return FolderContents.get(i);
     }
 
-    public void setitem(int i, Object newItem){
+    public void setItem(int i, Object newItem){
         FolderContents.set(i, newItem);
     }
 
