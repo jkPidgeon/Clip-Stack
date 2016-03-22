@@ -42,4 +42,20 @@ public class FolderObject {
     public void setCreationDate(Date creationDate) {
         this.creationDate = creationDate;
     }
+
+
+    /**
+     * Getter ans setter for specific items in a folder
+     * @param i
+     * @return
+     */
+    public Object getItem(int i){
+        return FolderContents.get(i);
+    }
+
+    public void setItem(int i, Object newItem){
+        FolderContents.set(i, newItem);
+    }
+
+
 }
